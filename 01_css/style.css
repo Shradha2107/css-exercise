@@ -1,0 +1,63 @@
+/* 
+First css 
+*/
+html{
+  /* defining the root font size */
+  font-size: 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+/* 
+CSS rule: 
+SELECTOR{
+  propety value; <-- declaration
+}
+*/
+article {
+  color: purple;
+  background-color: pink;
+}
+/* These are multiple selectors */
+h1, h2, h3, h4 {
+  font-family: Roboto;
+  font-weight: 400;
+}
+
+h4 {
+  
+  
+  font-size: 32px;
+  font-family: Roboto;
+  font-weight: 900;
+  font-style: normal;
+  text-align: left;
+  text-decoration: underline;
+
+}
+
+p {
+  line-height: 1.2;
+  letter-spacing: 2px;
+  
+}
+
+/* selectors trageting decendants (separated by space) */
+main p {
+  border: 2px solid blue;
+}
+
+/* selector trageting direct decendants (separated by )*/
+section > p {
+  border: 10px dashed red;
+}
+
+/* selector trageting Sibling (separated by +) */
+p+p {
+  border: 10px dashed greenyellow;
+}
+
+/* class name selector (starts with fullstop) */
+.title {
+  color: rgb(47, 183, 47);
+
+}
